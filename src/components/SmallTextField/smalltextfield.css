@@ -1,0 +1,21 @@
+.textfield {
+    height: 15%;
+    display: grid;
+    grid-template-rows: 0.4fr auto;
+}
+
+.textfield label {
+    color: #034645;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.textfield input {
+    border: none;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+
+.textfield input:focus {
+    outline: #034645 solid 2px;
+}
